@@ -1,4 +1,7 @@
-# Laravel + Vue Starter Kit
+# Sistema Veterinários
+
+Este projeto é um sistema completo de gestão voltado para clínicas, consultórios e hospitais veterinários. Ele foi desenvolvido com o objetivo de **automatizar processos clínicos, administrativos e financeiros**, proporcionando maior eficiência e qualidade no atendimento aos animais e seus tutores. A solução atende profissionais da área veterinária que buscam um sistema intuitivo, seguro e escalável, capaz de gerenciar agendamentos, prontuários eletrônicos, controle de vacinas, estoque de medicamentos, relatórios gerenciais e muito mais.
+
 
 ## Introduction
 
