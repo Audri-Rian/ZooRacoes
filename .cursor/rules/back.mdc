@@ -1,0 +1,7 @@
+---
+description: Convenções de back-end (Spring Boot + Java, hexagonal por Bounded Context) do ZooRações
+globs: back/**
+alwaysApply: false
+---
+
+Siga @back/AGENTS.md — fonte única de convenções de estrutura, stack e mecanismo de evento para este diretório.
