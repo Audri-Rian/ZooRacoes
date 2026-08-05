@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ZooRacoesApiApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ZooRacoesApiApplication.class, args);
-	}
-
+  public static void main(String[] args) {
+    SpringApplication.run(ZooRacoesApiApplication.class, args);
+  }
 }

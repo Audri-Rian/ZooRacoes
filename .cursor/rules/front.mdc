@@ -1,0 +1,7 @@
+---
+description: Convenções de front-end (Next.js + TS + shadcn/ui) do ZooRações
+globs: front/**
+alwaysApply: false
+---
+
+Siga @front/AGENTS.md — fonte única de convenções de estrutura, stack e idioma para este diretório.

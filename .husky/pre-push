@@ -1,0 +1,23 @@
+status=0
+changed_files=$(mktemp)
+
+while read local_ref local_sha remote_ref remote_sha; do
+  if [ "$remote_sha" = "0000000000000000000000000000000000000000" ]; then
+    git diff --name-only "$local_sha" >> "$changed_files"
+  else
+    git diff --name-only "$remote_sha" "$local_sha" >> "$changed_files"
+  fi
+done
+
+if grep -q '^front/' "$changed_files"; then
+  echo "-- pre-push: checando front --"
+  (cd front && npx tsc --noEmit && npx next lint) || status=1
+fi
+
+if grep -q '^back/' "$changed_files"; then
+  echo "-- pre-push: checando back --"
+  (cd back && ./mvnw -q test) || status=1
+fi
+
+rm -f "$changed_files"
+exit $status

@@ -1,7 +1,15 @@
 {
   "name": "zooracoes",
   "private": true,
+  "workspaces": [
+    "front"
+  ],
   "scripts": {
-    "dev": "./dev.sh"
+    "dev": "./dev.sh",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^17.3.0"
   }
 }

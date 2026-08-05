@@ -25,6 +25,7 @@ back/**/.gradle/
 back/**/build/
 
 # Node / Next
+node_modules/
 front/**/node_modules/
 front/**/.next/
 front/**/out/
