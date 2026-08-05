@@ -1,0 +1,39 @@
+# Ambiente
+.env
+.env.local
+.env.*.local
+**/.env
+!**/.env.example
+**/.env.local
+**/.env.*.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.iml
+
+# Java / Spring
+back/**/target/
+back/**/.mvn/wrapper/maven-wrapper.jar
+back/**/*.class
+back/**/*.jar
+back/**/*.war
+back/**/.gradle/
+back/**/build/
+
+# Node / Next
+front/**/node_modules/
+front/**/.next/
+front/**/out/
+front/**/dist/
+front/**/coverage/
+front/**/*.tsbuildinfo
+front/**/next-env.d.ts
+
+# Logs / temp
+*.log
+tmp/
+temp/

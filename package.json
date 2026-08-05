@@ -1,0 +1,7 @@
+{
+  "name": "zooracoes",
+  "private": true,
+  "scripts": {
+    "dev": "./dev.sh"
+  }
+}
